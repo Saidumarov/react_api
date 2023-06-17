@@ -9,8 +9,8 @@ export const Linkpage = () => {
           <Link to="/" className="link" >
            Post
           </Link>
-          <Link className="link">About</Link>
-          <Link className="link">Contact</Link>
+          <Link to="/about" className="link">About</Link>
+          <Link  k to="/contact" className="link">Contact</Link>
         </div>
       </nav>
 

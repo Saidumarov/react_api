@@ -114,3 +114,9 @@ nav {
   color: white;
   padding-left: 500px;
 }
+
+.no img{
+  width: 500px;
+  object-fit: cover;
+margin: 80px 0 0 500px;
+}
