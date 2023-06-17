@@ -8,7 +8,7 @@ const Post = ({images,title,description,id}) => {
   return (
     <div className='item-con'>
       <p>{title}</p>
-      <img src={images} alt="" className="img" />
+      <img src={images} alt="Image not found" className="img" />
       <Link to={`/post/roduct/single/${id}`} className="a" >
       <button> Ko'rish</button>
       </Link>

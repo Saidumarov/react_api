@@ -23,7 +23,7 @@ const Postsingle = () => {
             <div>
                <div className="batf">
                 <div className="bat">
-                <img src={post.images} alt="" />
+                <img src={post.images} alt="Image not found" />
                 </div>
                 <div className="bat1">
                     
